@@ -1,0 +1,3 @@
+# GITTROJAN
+
+This file is a non-malicious project based on github based trojan viruses, and how it functions. This trojan DOES preform data documentation and exfiltration. It will be installed with process, keylogging, and other information. This file is based on a different project. And requires the token.txt file in its documentation to function. Without the token it WILL NOT RUN as it has no modules. This is the bare-bones. the full project is kept in an independent repository where data is also exfiltrated. Please be cautious with this file none the less. 
