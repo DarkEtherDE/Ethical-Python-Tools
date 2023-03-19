@@ -3,10 +3,10 @@ import time
 import win32com.client
 
 smtp_server = 'smtp.gamil.com'
-smtp_port = 587
-smtp_acct = 'darkether870@gmail.com'
+smtp_port = 25
+smtp_acct = 'example@randommail.com'
 smtp_passwd = None
-tgt_acct = ['jonathan@brinkley.ws']
+tgt_acct = ['private@arndomaladn.ws']
 
 def plain_email(subject, contents):
     message = f'Subject: {subject}\nFrom {smtp_acct}\n'
