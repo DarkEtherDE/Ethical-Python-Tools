@@ -53,7 +53,7 @@ def decrypt(encrypted):
     return plaintext
     
 if __name__ == '__main__':
-    plaintext = b'hey there you'
+    plaintext = b'hey there you.'
     try:
         print(decrypt(encrypt(plaintext)))
     except FileNotFoundError:                   #If keys don't exist, generate keys and continue
