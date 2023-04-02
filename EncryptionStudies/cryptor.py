@@ -26,7 +26,7 @@ def get_rsa_cipher(keytype):
     
 def encrypt(plaintext):
     compressed_text = zlib.compress(plaintext)                          #compress our text we are encrypting through zlib
-    
+
     session_key = get_random_bytes(16)                                  #Generate a random session key
     cipher_aes = AES.new(session_key, AES.MODE_EAX) 
     ciphertext, tag = cipher_aes.encrypt_and_digest(compressed_text)    #Perform encryption

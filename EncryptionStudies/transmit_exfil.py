@@ -22,5 +22,3 @@ if __name__ == '__main__':
         transmit('mysecrets.txt')
     except:
         plain_ftp('mysecrets.txt', server)
-
-        
