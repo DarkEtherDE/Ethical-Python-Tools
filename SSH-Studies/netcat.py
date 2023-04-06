@@ -5,7 +5,7 @@ import subprocess
 import sys
 import textwrap
 import threading
-
+import os
 hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname)
 print("IP Address: ", IPAddr)
@@ -101,8 +101,15 @@ def execute(cmd):
             print('break')
             return
         print(cmd)
-        output = subprocess.check_output(shlex.split(cmd), stderr=subprocess.STDOUT)
-        return output.decode()
+        if os.name != 'nt':
+            output = subprocess.check_output(shlex.split(cmd), stderr=subprocess.STDOUT)
+            return output.decode()
+        else: 
+            output = os.popen(cmd).read()
+            if output == '':
+                output == 'Failed'
+            return output
+        
 
 
 if __name__ == '__main__':
