@@ -1,0 +1,199 @@
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+
+COMMANDLINE: None
+CREATED: 20230402170614.238129-300
+EXECUTABLE: None
+Parent PID: 772
+PID: 1768
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: "C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2302.26.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe" 
+CREATED: 20230402170614.064377-300
+EXECUTABLE: C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2302.26.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe
+Parent PID: 4628
+PID: 27908
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230402170614.078690-300
+EXECUTABLE: None
+Parent PID: 772
+PID: 28164
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230402170614.437610-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1108
+PID: 2916
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: "C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe" -ServerName:App.AppXjvs2nbwryyqjz1h8d8v70f70g3rgdcyb.mca
+CREATED: 20230402170709.622279-300
+EXECUTABLE: C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe
+Parent PID: 1108
+PID: 15316
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: C:\Windows\System32\RuntimeBroker.exe -Embedding
+CREATED: 20230402170709.740061-300
+EXECUTABLE: C:\Windows\System32\RuntimeBroker.exe
+Parent PID: 1108
+PID: 23732
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+###################################################################
+BEFORE IMPLEMENTATION OF PRIVILEGE TOKEN
+###################################################################
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe" --type=renderer --extension-process --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0 (Edition std-1)" --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:aliexpress-modal=off --with-feature:cashback=on --with-feature:continue-on-booking=on --with-feature:continue-shopping=on --with-feature:continue-shopping-2=on --with-feature:continue-shopping-5=on --with-feature:continue-shopping-structured-partners=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:gx-game-strips=off --with-feature:gx-video-to-phone=on --with-feature:logitech-led-support=on --with-feature:opera-account-popup=on --with-feature:play-again=on --with-feature:run-at-startup-default=on --with-feature:sd-suggestions-external=on --with-feature:side-profiles=on --with-feature:sitecheck-age=on --with-feature:tiktok-panel=on --with-feature:yandex-zen-leads-for-nonsdusers=off --with-feature:yandex-zen-lift-up=off --with-feature:yandex-zen-news-next=on --with-feature:installer-experiment-test=off --with-feature:installer-bypass-launcher=off --with-feature:installer-one-version-one-subfolder=off --ab_tests=GXCTest25-ref:DNA-99214_GXCTest25,GXCTest50-ref:DNA-99214_GXCTest50 --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=85 --time-ticks-at-unix-epoch=-1680469678981393 --launch-time-ticks=3565109029 --mojo-platform-channel-handle=11212 --field-trial-handle=1788,i,15840015748053302947,7789487923601497396,131072 /prefetch:1
+CREATED: 20230402170724.092340-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe
+Parent PID: 20776
+PID: 25760
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+###################################################################
+AFTER IMPLEMENTATION OF PRIVILEGE TOKEN
+###################################################################
+
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe" --user-data-dir="C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable" --pipeid=oauc_pipe0f0f3cf021189838ed4c4a957d2401a6
+CREATED: 20230402171812.185303-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe
+Parent PID: 20776
+PID: 12448
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe" --type=crashpad-handler "--user-data-dir=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable\Crash Reports" "--crash-count-file=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable\crash_count.txt" --url=https://crashstats-collector.opera.com/collector/submit --annotation=channel=Stable --annotation=plat=Win64 --annotation=prod=OperaDesktopGX --annotation=ver=96.0.4693.117 --initial-client-data=0x244,0x248,0x24c,0x220,0x250,0x7ff6938e2a58,0x7ff6938e2a68,0x7ff6938e2a78
+CREATED: 20230402171812.197976-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe
+Parent PID: 12448
+PID: 3452
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: C:\Windows\System32\RuntimeBroker.exe -Embedding
+CREATED: 20230402171815.764970-300
+EXECUTABLE: C:\Windows\System32\RuntimeBroker.exe
+Parent PID: 1108
+PID: 10400
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe" -ServerName:App.AppXjvs2nbwryyqjz1h8d8v70f70g3rgdcyb.mca
+CREATED: 20230402171815.644040-300
+EXECUTABLE: C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe
+Parent PID: 1108
+PID: 10996
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\upc.exe" 
+CREATED: 20230402171825.809609-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\upc.exe
+Parent PID: 21108
+PID: 15396
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayService.exe" -uplayservice_perform_updates
+CREATED: 20230402171827.632575-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayService.exe
+Parent PID: 15396
+PID: 13820
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=4229828161 --mojo-platform-channel-handle=2980 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
+CREATED: 20230402171828.810288-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 11336
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --lang=en-US --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --mojo-platform-channel-handle=2720 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8
+CREATED: 20230402171828.768540-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 20848
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --lang=en-US --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --mojo-platform-channel-handle=2644 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8
+CREATED: 20230402171828.763459-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 26208
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=4229846006 --mojo-platform-channel-handle=3080 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
+CREATED: 20230402171828.828155-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 27708
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=gpu-process --no-sandbox --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --lang=en-US --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --mojo-platform-channel-handle=2348 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:2
+CREATED: 20230402171828.716194-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 5576
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=4229822349 --mojo-platform-channel-handle=2964 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
+CREATED: 20230402171828.804522-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 9360
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: None
+CREATED: 20230402171829.475345-300
+EXECUTABLE: None
+Parent PID: 772
+PID: 5900
+OWNER: (None, 2, None)
+N/A
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --launch-time-ticks=4256352210 --mojo-platform-channel-handle=5116 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
+CREATED: 20230402171855.334459-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 16592
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=4256345995 --mojo-platform-channel-handle=5068 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
+CREATED: 20230402171855.328142-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 3828
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=4260758939 --mojo-platform-channel-handle=4960 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
+CREATED: 20230402171859.741204-300
+EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
+Parent PID: 15396
+PID: 26664
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
