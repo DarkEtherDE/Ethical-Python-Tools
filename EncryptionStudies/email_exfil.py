@@ -2,11 +2,11 @@ import smtplib
 import time
 import win32com.client
 
-smtp_server = 'smtp.gamil.com'
+smtp_server = 'smtp.gmail.com'
 smtp_port = 25
-smtp_acct = 'example@randommail.com'
-smtp_passwd = None
-tgt_acct = ['private@arndomaladn.ws']
+smtp_acct = 'darkether870@gmail.com'
+smtp_passwd = '3Ther8700!'
+tgt_acct = ['jbrinkley870@gmail.com']
 
 def plain_email(subject, contents):
     message = f'Subject: {subject}\nFrom {smtp_acct}\n'
@@ -30,4 +30,4 @@ def outlook(subject, contents):
     
 if __name__ == '__main__':
     plain_email('test2 message', 'attack at dawn')
-    
+

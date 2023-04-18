@@ -68,7 +68,8 @@ N/A
 AFTER IMPLEMENTATION OF PRIVILEGE TOKEN
 ###################################################################
 
-CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+
 COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe" --user-data-dir="C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable" --pipeid=oauc_pipe0f0f3cf021189838ed4c4a957d2401a6
 CREATED: 20230402171812.185303-300
 EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe
@@ -76,7 +77,8 @@ Parent PID: 20776
 PID: 12448
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe" --type=crashpad-handler "--user-data-dir=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable\Crash Reports" "--crash-count-file=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable\crash_count.txt" --url=https://crashstats-collector.opera.com/collector/submit --annotation=channel=Stable --annotation=plat=Win64 --annotation=prod=OperaDesktopGX --annotation=ver=96.0.4693.117 --initial-client-data=0x244,0x248,0x24c,0x220,0x250,0x7ff6938e2a58,0x7ff6938e2a68,0x7ff6938e2a78
 CREATED: 20230402171812.197976-300
 EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.117\opera_autoupdate.exe
@@ -84,7 +86,8 @@ Parent PID: 12448
 PID: 3452
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: C:\Windows\System32\RuntimeBroker.exe -Embedding
 CREATED: 20230402171815.764970-300
 EXECUTABLE: C:\Windows\System32\RuntimeBroker.exe
@@ -92,7 +95,8 @@ Parent PID: 1108
 PID: 10400
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe" -ServerName:App.AppXjvs2nbwryyqjz1h8d8v70f70g3rgdcyb.mca
 CREATED: 20230402171815.644040-300
 EXECUTABLE: C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe
@@ -100,7 +104,8 @@ Parent PID: 1108
 PID: 10996
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\upc.exe" 
 CREATED: 20230402171825.809609-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\upc.exe
@@ -108,7 +113,8 @@ Parent PID: 21108
 PID: 15396
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayService.exe" -uplayservice_perform_updates
 CREATED: 20230402171827.632575-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayService.exe
@@ -116,7 +122,8 @@ Parent PID: 15396
 PID: 13820
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=4229828161 --mojo-platform-channel-handle=2980 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
 CREATED: 20230402171828.810288-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -124,7 +131,8 @@ Parent PID: 15396
 PID: 11336
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --lang=en-US --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --mojo-platform-channel-handle=2720 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8
 CREATED: 20230402171828.768540-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -132,7 +140,8 @@ Parent PID: 15396
 PID: 20848
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --lang=en-US --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --mojo-platform-channel-handle=2644 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8
 CREATED: 20230402171828.763459-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -140,7 +149,8 @@ Parent PID: 15396
 PID: 26208
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=4229846006 --mojo-platform-channel-handle=3080 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
 CREATED: 20230402171828.828155-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -148,7 +158,8 @@ Parent PID: 15396
 PID: 27708
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=gpu-process --no-sandbox --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --lang=en-US --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --mojo-platform-channel-handle=2348 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:2
 CREATED: 20230402171828.716194-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -156,7 +167,8 @@ Parent PID: 15396
 PID: 5576
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=4229822349 --mojo-platform-channel-handle=2964 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
 CREATED: 20230402171828.804522-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -164,7 +176,8 @@ Parent PID: 15396
 PID: 9360
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: None
 CREATED: 20230402171829.475345-300
 EXECUTABLE: None
@@ -172,7 +185,8 @@ Parent PID: 772
 PID: 5900
 OWNER: (None, 2, None)
 N/A
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --launch-time-ticks=4256352210 --mojo-platform-channel-handle=5116 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
 CREATED: 20230402171855.334459-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -180,7 +194,8 @@ Parent PID: 15396
 PID: 16592
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=4256345995 --mojo-platform-channel-handle=5068 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
 CREATED: 20230402171855.328142-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -188,7 +203,8 @@ Parent PID: 15396
 PID: 3828
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
-
+
+
 COMMANDLINE: "C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UplayWebCore.exe" --type=renderer --locales-dir-path="C:/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/locales/1" --log-severity=disable --disable-spell-checking --user-data-dir="C:\Users\User\AppData\Local\CEF\User Data" --no-sandbox --log-file="C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\debug.log" --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=4260758939 --mojo-platform-channel-handle=4960 --field-trial-handle=2364,i,12066299045827308326,12565342938850318020,131072 --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:1
 CREATED: 20230402171859.741204-300
 EXECUTABLE: C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe
@@ -196,4 +212,712 @@ Parent PID: 15396
 PID: 26664
 OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
 SeChangeNotifyPrivilege|
+
+
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230407121553.503545-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 11884
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407121553.139739-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 22420
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230407121553.511264-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 11884
+PID: 24200
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407121602.541848-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 21376
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407121604.366105-300
+EXECUTABLE: None
+Parent PID: 7948
+PID: 8012
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407121605.317675-300
+EXECUTABLE: None
+Parent PID: 6960
+PID: 12392
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407121605.322438-300
+EXECUTABLE: None
+Parent PID: 12392
+PID: 17436
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230407121814.223329-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 10964
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230407121814.231489-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 10964
+PID: 20380
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407121813.834926-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 9472
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: python  netcat.py -t 192.168.1.185 -p 9999
+CREATED: 20230407121858.828565-300
+EXECUTABLE: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0\python3.10.exe
+Parent PID: 10964
+PID: 8196
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: "C:\Program Files\Microsoft Office\Root\Office16\SDXHelper.exe" -Embedding
+CREATED: 20230407121902.208453-300
+EXECUTABLE: C:\Program Files\Microsoft Office\Root\Office16\SDXHelper.exe
+Parent PID: 1120
+PID: 14192
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: netstat
+CREATED: 20230407122033.402345-300
+EXECUTABLE: C:\WINDOWS\system32\NETSTAT.EXE
+Parent PID: 10964
+PID: 5868
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: python  netcat.py -t 192.168.1.185 -p 9999
+CREATED: 20230407122048.914549-300
+EXECUTABLE: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2800.0_x64__qbz5n2kfra8p0\python3.10.exe
+Parent PID: 10964
+PID: 25304
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.127\opera_autoupdate.exe" --type=crashpad-handler "--user-data-dir=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable\Crash Reports" "--crash-count-file=C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable\crash_count.txt" --url=https://crashstats-collector.opera.com/collector/submit --annotation=channel=Stable --annotation=plat=Win64 --annotation=prod=OperaDesktopGX --annotation=ver=96.0.4693.127 --initial-client-data=0x254,0x258,0x25c,0x230,0x260,0x7ff69b642a58,0x7ff69b642a68,0x7ff69b642a78
+CREATED: 20230407122123.169027-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.127\opera_autoupdate.exe
+Parent PID: 7972
+PID: 4556
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.127\opera_autoupdate.exe" --user-data-dir="C:\Users\User\AppData\Roaming\Opera Software\Opera GX Stable" --pipeid=oauc_pipe0f0f3cf021189838ed4c4a957d2401a6
+CREATED: 20230407122123.156847-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\96.0.4693.127\opera_autoupdate.exe
+Parent PID: 19712
+PID: 7972
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122206.301572-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 12804
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\System32\rundll32.exe C:\WINDOWS\System32\FirewallControlPanel.dll,ShowNotificationDialog /ETOnly 0 /OnProfiles 6 /OtherAllowed 0 /OtherBlocked 0 /OtherEdgeAllowed 0 /NewBlocked 4 "C:\users\user\documents\github\ethical-python-tools\escalation-studies\netcat.exe"
+CREATED: 20230407122206.265517-300
+EXECUTABLE: C:\WINDOWS\System32\rundll32.exe
+Parent PID: 3184
+PID: 16800
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: .\netcat.exe  -p 5555 -l -c
+CREATED: 20230407122206.198667-300
+EXECUTABLE: C:\Users\User\Documents\GitHub\Ethical-Python-Tools\Escalation-Studies\netcat.exe
+Parent PID: 7468
+PID: 2160
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: .\netcat.exe  -p 5555 -l -c
+CREATED: 20230407122206.001927-300
+EXECUTABLE: C:\Users\User\Documents\GitHub\Ethical-Python-Tools\Escalation-Studies\netcat.exe
+Parent PID: 10964
+PID: 7468
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122209.544617-300
+EXECUTABLE: None
+Parent PID: 1120
+PID: 8276
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407122239.902915-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 20720
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122241.650422-300
+EXECUTABLE: None
+Parent PID: 7948
+PID: 12272
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122242.683476-300
+EXECUTABLE: None
+Parent PID: 6960
+PID: 22260
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122242.688392-300
+EXECUTABLE: None
+Parent PID: 22260
+PID: 9420
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122313.151083-300
+EXECUTABLE: None
+Parent PID: 22260
+PID: 10476
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122313.344183-300
+EXECUTABLE: None
+Parent PID: 10476
+PID: 7240
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407122336.089087-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 13840
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122337.608430-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 22808
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122451.226159-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 15856
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122610.514419-300
+EXECUTABLE: None
+Parent PID: 1604
+PID: 16740
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: "C:\WINDOWS\system32\backgroundTaskHost.exe" -ServerName:Global.Accounts.AppXqe94epy97qwa6w3j6w132e8zvcs117nd.mca
+CREATED: 20230407122610.541371-300
+EXECUTABLE: C:\WINDOWS\system32\backgroundTaskHost.exe
+Parent PID: 1120
+PID: 5212
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122615.814877-300
+EXECUTABLE: None
+Parent PID: 22260
+PID: 12240
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+N/A
+
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230407122635.184897-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 23104
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230407122635.194158-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 23104
+PID: 23328
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122659.796436-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 6252
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{338B40F9-9D68-4B53-A793-6B9AA0C5F63B}
+CREATED: 20230407122700.631834-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 8728
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122704.272714-300
+EXECUTABLE: None
+Parent PID: 20236
+PID: 10480
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122704.212647-300
+EXECUTABLE: None
+Parent PID: 6252
+PID: 20236
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407122717.481516-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 1032
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122717.743269-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 13316
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122717.159630-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 13764
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122717.288627-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 21684
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: None
+CREATED: 20230407122722.022253-300
+EXECUTABLE: None
+Parent PID: 12116
+PID: 14736
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CREATED: 20230407122938.151961-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 19832
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: None
+CREATED: 20230407122939.669863-300
+EXECUTABLE: None
+Parent PID: 824
+PID: 11176
+OWNER: (None, 2, None)
+N/A
+
+
+COMMANDLINE: .\netcat.exe  -p 9999
+CREATED: 20230407123000.241365-300
+EXECUTABLE: C:\Users\User\Documents\GitHub\Ethical-Python-Tools\Escalation-Studies\netcat.exe
+Parent PID: 23104
+PID: 24220
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: .\netcat.exe  -p 9999
+CREATED: 20230407123000.333153-300
+EXECUTABLE: C:\Users\User\Documents\GitHub\Ethical-Python-Tools\Escalation-Studies\netcat.exe
+Parent PID: 24220
+PID: 6020
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: .\netcat.exe  -p 9999
+CREATED: 20230407123005.152460-300
+EXECUTABLE: C:\Users\User\Documents\GitHub\Ethical-Python-Tools\Escalation-Studies\netcat.exe
+Parent PID: 24588
+PID: 23304
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: .\netcat.exe  -p 9999
+CREATED: 20230407123005.061495-300
+EXECUTABLE: C:\Users\User\Documents\GitHub\Ethical-Python-Tools\Escalation-Studies\netcat.exe
+Parent PID: 23104
+PID: 24588
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: "C:\WINDOWS\system32\backgroundTaskHost.exe" -ServerName:App.AppXc206n2x0eevm6mcaqje6aze5tcyc9qt6.mca
+CREATED: 20230407123008.245172-300
+EXECUTABLE: C:\WINDOWS\system32\backgroundTaskHost.exe
+Parent PID: 1120
+PID: 6164
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+
+COMMANDLINE: "C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.208.923.0_x86__zpdnekdrzrea0\Spotify.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --log-severity=disable --user-agent-product="Chrome/111.0.5563.65 Spotify/1.2.8.923" --lang=en --user-data-dir="C:\Users\User\AppData\Local\SpotifyAppX\User Data" --log-file="C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.208.923.0_x86__zpdnekdrzrea0\debug.log" --mojo-platform-channel-handle=4760 --field-trial-handle=2060,i,16759751557396563918,3608045258064319568,131072 --disable-features=BackForwardCache,CalculateNativeWinOcclusion,WinUseBrowserSpellChecker /prefetch:8
+CREATED: 20230407123018.540191-300
+EXECUTABLE: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.208.923.0_x86__zpdnekdrzrea0\Spotify.exe
+Parent PID: 20776
+PID: 1488
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --enable-quic --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:aliexpress-modal=off --with-feature:cashback=on --with-feature:continue-on-booking=on --with-feature:continue-shopping=on --with-feature:continue-shopping-2=on --with-feature:continue-shopping-5=on --with-feature:continue-shopping-structured-partners=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:gx-game-strips=off --with-feature:gx-video-to-phone=on --with-feature:logitech-led-support=on --with-feature:opera-account-popup=on --with-feature:play-again=on --with-feature:run-at-startup-default=on --with-feature:sd-suggestions-external=on --with-feature:side-profiles=on --with-feature:sitecheck-age=on --with-feature:tiktok-panel=on --with-feature:yandex-zen-leads-for-nonsdusers=off --with-feature:yandex-zen-lift-up=off --with-feature:yandex-zen-news-next=on --with-feature:installer-experiment-test=off --with-feature:installer-bypass-launcher=off --with-feature:installer-one-version-one-subfolder=off --ab_tests=GXCTest25-ref:DNA-99214_GXCTest25,GXCTest50-ref:DNA-99214_GXCTest50 --mojo-platform-channel-handle=6764 --field-trial-handle=1796,i,170299333437292784,1799888681921109499,131072 /prefetch:8
+CREATED: 20230407123018.529183-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe
+Parent PID: 19712
+PID: 15356
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe" --type=renderer --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0 (Edition std-1)" --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:aliexpress-modal=off --with-feature:cashback=on --with-feature:continue-on-booking=on --with-feature:continue-shopping=on --with-feature:continue-shopping-2=on --with-feature:continue-shopping-5=on --with-feature:continue-shopping-structured-partners=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:gx-game-strips=off --with-feature:gx-video-to-phone=on --with-feature:logitech-led-support=on --with-feature:opera-account-popup=on --with-feature:play-again=on --with-feature:run-at-startup-default=on --with-feature:sd-suggestions-external=on --with-feature:side-profiles=on --with-feature:sitecheck-age=on --with-feature:tiktok-panel=on --with-feature:yandex-zen-leads-for-nonsdusers=off --with-feature:yandex-zen-lift-up=off --with-feature:yandex-zen-news-next=on --with-feature:installer-experiment-test=off --with-feature:installer-bypass-launcher=off --with-feature:installer-one-version-one-subfolder=off --ab_tests=GXCTest25-ref:DNA-99214_GXCTest25,GXCTest50-ref:DNA-99214_GXCTest50 --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=455 --time-ticks-at-unix-epoch=-1680884992985979 --launch-time-ticks=214860098623 --mojo-platform-channel-handle=6472 --field-trial-handle=1796,i,170299333437292784,1799888681921109499,131072 /prefetch:1
+CREATED: 20230409231057.117219-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe
+Parent PID: 19712
+PID: 21560
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe" --type=renderer --extension-process --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0 (Edition std-1)" --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:aliexpress-modal=off --with-feature:cashback=on --with-feature:continue-on-booking=on --with-feature:continue-shopping=on --with-feature:continue-shopping-2=on --with-feature:continue-shopping-5=on --with-feature:continue-shopping-structured-partners=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:gx-game-strips=off --with-feature:gx-video-to-phone=on --with-feature:logitech-led-support=on --with-feature:opera-account-popup=on --with-feature:play-again=on --with-feature:run-at-startup-default=on --with-feature:sd-suggestions-external=on --with-feature:side-profiles=on --with-feature:sitecheck-age=on --with-feature:tiktok-panel=on --with-feature:yandex-zen-leads-for-nonsdusers=off --with-feature:yandex-zen-lift-up=off --with-feature:yandex-zen-news-next=on --with-feature:installer-experiment-test=off --with-feature:installer-bypass-launcher=off --with-feature:installer-one-version-one-subfolder=off --ab_tests=GXCTest25-ref:DNA-99214_GXCTest25,GXCTest50-ref:DNA-99214_GXCTest50 --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=456 --time-ticks-at-unix-epoch=-1680884992985979 --launch-time-ticks=214860153719 --mojo-platform-channel-handle=8956 --field-trial-handle=1796,i,170299333437292784,1799888681921109499,131072 /prefetch:1
+CREATED: 20230409231057.172591-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe
+Parent PID: 19712
+PID: 25468
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+COMMANDLINE: "C:\WINDOWS\system32\backgroundTaskHost.exe" -ServerName:Global.Accounts.AppXqe94epy97qwa6w3j6w132e8zvcs117nd.mca
+CREATED: 20230409231108.501835-300
+EXECUTABLE: C:\WINDOWS\system32\backgroundTaskHost.exe
+Parent PID: 1120
+PID: 30280
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Windows\System32\WUDFHost.exe" -HostGUID:{193a1820-d9ac-4997-8c55-be817523f6aa} -IoEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-50890443-24a0-4a7b-99a9-0173e86e8d13 -SystemEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-8807205e-69c6-4f8e-824a-5e7b2f800079 -IoCancelEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-54e77492-ab5d-4aae-abf8-5a8eb5cd12cb -NonStateChangingEventPortName:\UMDFCommunicationPorts\WUDF\HostProcess-4f09c11e-8b29-4981-a480-883fb0831f0e -LifetimeId:6afdae2d-fb25-4eb5-92f6-8121ee1bb0fb -DeviceGroupId:MiracastDevices -HostArg:0
+CREATED: 20230409231113.606393-300
+EXECUTABLE: C:\Windows\System32\WUDFHost.exe
+Parent PID: 824
+PID: 13724
+OWNER: ('NT AUTHORITY', 0, 'LOCAL SERVICE')
+N/A
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230409231128.191518-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 9144
+PID: 11204
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\DllHost.exe" /Processid:{5250E46F-BB09-D602-5891-F476DC89B700}
+CREATED: 20230409231128.049883-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 31456
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230409231128.182176-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 9144
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Program Files\Microsoft Office\Root\Office16\SDXHelper.exe" -Embedding
+CREATED: 20230409231137.314129-300
+EXECUTABLE: C:\Program Files\Microsoft Office\Root\Office16\SDXHelper.exe
+Parent PID: 1120
+PID: 25216
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\DllHost.exe" /Processid:{5250E46F-BB09-D602-5891-F476DC89B700}
+CREATED: 20230409231144.139928-300
+EXECUTABLE: None
+Parent PID: 1120
+PID: 29044
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: consent.exe 7948 288 00000261A4090900
+CREATED: 20230409231144.481825-300
+EXECUTABLE: C:\WINDOWS\system32\consent.exe
+Parent PID: 7948
+PID: 16428
+OWNER: ('NT AUTHORITY', 0, 'SYSTEM')
+N/A
+
+COMMANDLINE: "C:\WINDOWS\system32\DllHost.exe" /Processid:{B41DB860-64E4-11D2-9906-E49FADC173CA}
+CREATED: 20230409231144.327734-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 24712
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\SysWOW64\DllHost.exe" /Processid:{776DBC8D-7347-478C-8D71-791E12EF49D8}
+CREATED: 20230409231144.281908-300
+EXECUTABLE: C:\WINDOWS\SysWOW64\DllHost.exe
+Parent PID: 1120
+PID: 26380
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230409231145.555690-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 29884
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|SeImpersonatePrivilege|SeCreateGlobalPrivilege|
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230409231145.561152-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 29884
+PID: 5756
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|SeImpersonatePrivilege|SeCreateGlobalPrivilege|
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe" --type=renderer --enable-wer --user-data-dir="C:\Users\User\AppData\Roaming\Microsoft\Teams" --ms-teams-less-cors=522133263 --app-user-model-id=com.squirrel.Teams.Teams --app-path="C:\Users\User\AppData\Local\Microsoft\Teams\current\resources\app.asar" --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1337 --launch-time-ticks=214929980546 --mojo-platform-channel-handle=2340 --field-trial-handle=1760,i,7290971791896066841,3782736409913100716,131072 --enable-features=ContextBridgeMutability,SharedArrayBuffer,WinUseBrowserSpellChecker,WinUseHybridSpellChecker --disable-features=CalculateNativeWinOcclusion,ExtraCookieValidityChecks,ForcedColors,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
+CREATED: 20230409231207.003317-300
+EXECUTABLE: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+Parent PID: 6072
+PID: 3628
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+CommandLine, Time, Executable, Parent PID, PID, User, Privileges
+COMMANDLINE: "C:\WINDOWS\System32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-2038394263-553994895-4152507157-100353_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-2038394263-553994895-4152507157-100353 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon"  "1"
+CREATED: 20230409232005.001359-300
+EXECUTABLE: C:\WINDOWS\System32\SearchProtocolHost.exe
+Parent PID: 23304
+PID: 30044
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe" --type=renderer --extension-process --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0 (Edition std-1)" --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:aliexpress-modal=off --with-feature:cashback=on --with-feature:continue-on-booking=on --with-feature:continue-shopping=on --with-feature:continue-shopping-2=on --with-feature:continue-shopping-5=on --with-feature:continue-shopping-structured-partners=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:gx-game-strips=off --with-feature:gx-video-to-phone=on --with-feature:logitech-led-support=on --with-feature:opera-account-popup=on --with-feature:play-again=on --with-feature:run-at-startup-default=on --with-feature:sd-suggestions-external=on --with-feature:side-profiles=on --with-feature:sitecheck-age=on --with-feature:tiktok-panel=on --with-feature:yandex-zen-leads-for-nonsdusers=off --with-feature:yandex-zen-lift-up=off --with-feature:yandex-zen-news-next=on --with-feature:installer-experiment-test=off --with-feature:installer-bypass-launcher=off --with-feature:installer-one-version-one-subfolder=off --ab_tests=GXCTest25-ref:DNA-99214_GXCTest25,GXCTest50-ref:DNA-99214_GXCTest50 --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=461 --time-ticks-at-unix-epoch=-1680884992985979 --launch-time-ticks=215407862018 --mojo-platform-channel-handle=7780 --field-trial-handle=1796,i,170299333437292784,1799888681921109499,131072 /prefetch:1
+CREATED: 20230409232004.889750-300
+EXECUTABLE: C:\Users\User\AppData\Local\Programs\Opera GX\opera.exe
+Parent PID: 19712
+PID: 9272
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe" --type=renderer --enable-wer --user-data-dir="C:\Users\User\AppData\Roaming\Microsoft\Teams" --ms-teams-less-cors=522133263 --app-user-model-id=com.squirrel.Teams.Teams --app-path="C:\Users\User\AppData\Local\Microsoft\Teams\current\resources\app.asar" --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1342 --launch-time-ticks=215410351052 --mojo-platform-channel-handle=5320 --field-trial-handle=1760,i,7290971791896066841,3782736409913100716,131072 --enable-features=ContextBridgeMutability,SharedArrayBuffer,WinUseBrowserSpellChecker,WinUseHybridSpellChecker --disable-features=CalculateNativeWinOcclusion,ExtraCookieValidityChecks,ForcedColors,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
+CREATED: 20230409232007.381495-300
+EXECUTABLE: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+Parent PID: 6072
+PID: 30068
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230409232015.373109-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 3612
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\DllHost.exe" /Processid:{5250E46F-BB09-D602-5891-F476DC89B700}
+CREATED: 20230409232015.312026-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 7352
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230409232015.382891-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 3612
+PID: 8544
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\SysWOW64\DllHost.exe" /Processid:{776DBC8D-7347-478C-8D71-791E12EF49D8}
+CREATED: 20230409232032.973529-300
+EXECUTABLE: C:\WINDOWS\SysWOW64\DllHost.exe
+Parent PID: 1120
+PID: 13288
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\DllHost.exe" /Processid:{5250E46F-BB09-D602-5891-F476DC89B700}
+CREATED: 20230409232032.932264-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 1336
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\DllHost.exe" /Processid:{B41DB860-64E4-11D2-9906-E49FADC173CA}
+CREATED: 20230409232033.021814-300
+EXECUTABLE: C:\WINDOWS\system32\DllHost.exe
+Parent PID: 1120
+PID: 30764
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|
+
+COMMANDLINE: \??\C:\WINDOWS\system32\conhost.exe 0x4
+CREATED: 20230409232034.111862-300
+EXECUTABLE: C:\WINDOWS\system32\conhost.exe
+Parent PID: 9852
+PID: 26644
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|SeImpersonatePrivilege|SeCreateGlobalPrivilege|
+
+COMMANDLINE: "C:\WINDOWS\system32\cmd.exe" 
+CREATED: 20230409232034.107352-300
+EXECUTABLE: C:\WINDOWS\system32\cmd.exe
+Parent PID: 6960
+PID: 9852
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+SeChangeNotifyPrivilege|SeImpersonatePrivilege|SeCreateGlobalPrivilege|
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe" --type=renderer --enable-wer --user-data-dir="C:\Users\User\AppData\Roaming\Microsoft\Teams" --ms-teams-less-cors=522133263 --app-user-model-id=com.squirrel.Teams.Teams --app-path="C:\Users\User\AppData\Local\Microsoft\Teams\current\resources\app.asar" --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1343 --launch-time-ticks=215472537483 --mojo-platform-channel-handle=1512 --field-trial-handle=1760,i,7290971791896066841,3782736409913100716,131072 --enable-features=ContextBridgeMutability,SharedArrayBuffer,WinUseBrowserSpellChecker,WinUseHybridSpellChecker --disable-features=CalculateNativeWinOcclusion,ExtraCookieValidityChecks,ForcedColors,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
+CREATED: 20230409232109.569350-300
+EXECUTABLE: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+Parent PID: 6072
+PID: 19708
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
+
+COMMANDLINE: "C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe" --type=renderer --enable-wer --user-data-dir="C:\Users\User\AppData\Roaming\Microsoft\Teams" --ms-teams-less-cors=522133263 --app-user-model-id=com.squirrel.Teams.Teams --app-path="C:\Users\User\AppData\Local\Microsoft\Teams\current\resources\app.asar" --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1344 --launch-time-ticks=215530343472 --mojo-platform-channel-handle=3320 --field-trial-handle=1760,i,7290971791896066841,3782736409913100716,131072 --enable-features=ContextBridgeMutability,SharedArrayBuffer,WinUseBrowserSpellChecker,WinUseHybridSpellChecker --disable-features=CalculateNativeWinOcclusion,ExtraCookieValidityChecks,ForcedColors,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
+CREATED: 20230409232207.375719-300
+EXECUTABLE: C:\Users\User\AppData\Local\Microsoft\Teams\current\Teams.exe
+Parent PID: 6072
+PID: 27628
+OWNER: ('DESKTOP-ME5PQU0', 0, 'DarkEtherDE')
+
 

