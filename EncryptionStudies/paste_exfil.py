@@ -5,7 +5,7 @@ import requests
 import time
 
 
-username = 'DarkEtherDE'                            #Login Credentials
+username = 'user'                            #Login Credentials
 password = 'pass!'                         #
 api_dev_key = 'dev'    #
 

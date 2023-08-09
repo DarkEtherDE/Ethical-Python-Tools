@@ -6,7 +6,7 @@ import win32file
 server = '127.0.0.1'
 def plain_ftp(docpath, server):
     ftp = ftplib.FTP(server)                                                            #connected to setup ftp server
-    ftp.login("Admin", "3Ther1")                                                        #login to server
+    ftp.login("Admin", "pass")                                                        #login to server
     ftp.cwd('/pub/')                                                                    #travel to file path
     ftp.storbinary("STOR " + os.path.basename(docpath), open(docpath, "rb"), 1024)     #Write file to directory
     ftp.quit()

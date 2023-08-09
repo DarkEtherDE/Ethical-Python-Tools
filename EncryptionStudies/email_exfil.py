@@ -4,9 +4,9 @@ import win32com.client
 
 smtp_server = 'smtp.gmail.com'
 smtp_port = 25
-smtp_acct = 'darkether870@gmail.com'
-smtp_passwd = '3Ther8700!'
-tgt_acct = ['jbrinkley870@gmail.com']
+smtp_acct = 'user@gmail.com'
+smtp_passwd = 'pass!'
+tgt_acct = ['test@gmail.com']
 
 def plain_email(subject, contents):
     message = f'Subject: {subject}\nFrom {smtp_acct}\n'
