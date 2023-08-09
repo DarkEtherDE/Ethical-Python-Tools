@@ -6,8 +6,8 @@ import time
 
 
 username = 'DarkEtherDE'                            #Login Credentials
-password = '3TherrehT3870!'                         #
-api_dev_key = 'GTQOwdOBTQco-c2gq5tmNaxZ567XiVSy'    #
+password = 'pass!'                         #
+api_dev_key = 'dev'    #
 
 def plain_paste(title, contents):   
     login_url = 'https://pastebin.com/api/api_login.php'                                                #API Access login
