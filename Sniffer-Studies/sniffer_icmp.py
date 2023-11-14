@@ -81,5 +81,5 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         host = sys.argv[1]
     else:
-        host = '192.168.1.185'
+        host = socket.gethostbyname(socket.gethostname())
     sniff(host)

@@ -9,7 +9,7 @@ import pyuac
 
 
 # subnet to target
-SUBNET = '192.168.0.0/24'
+SUBNET = '192.168.175.1/24'
 # magic string we'll check ICMP responses for
 MESSAGE = 'PYTHONRULES!' 
 

@@ -6,7 +6,7 @@ import sys
 import threading
 import time
 # subnet to target
-SUBNET = 'https://obit.media/'
+SUBNET = '192.168.175.1'
 # magic string we'll check ICMP responses for
 MESSAGE = 'PYTHONRULES!'
 
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         host = sys.argv[1]
     else:
-        host = '192.168.1.185'
+        host = '192.168.175.1'
     s = Scanner(host)
     time.sleep(5)
     t = threading.Thread(target=udp_sender) #UPDsender is put in a sperate thread from sniffer
