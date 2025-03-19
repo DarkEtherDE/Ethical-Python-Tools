@@ -7,7 +7,7 @@ import threading
 import time
 
 FILTERED = [".jpg", ".gif", ".png", ".css"]
-TARGET = "http://localhost:80/WordPress" #Target website
+TARGET = " 172.67.68.250" #Target website
 THREADS = 10
 
 answers = queue.Queue()
